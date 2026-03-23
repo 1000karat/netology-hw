@@ -6,3 +6,4 @@
 5. Домашнее задание: [Система мониторинга Prometheus. Часть 2](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-05.md)
 6. Домашнее задание: [Кластеризация и балансировка нагрузки](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-06.md)
 7. Домашнее задание: [Резервное копирование](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-07.md)
+8. Домашнее задание: [Отказоустойчивость в облаке](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-08.md)
