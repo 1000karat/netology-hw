@@ -7,3 +7,4 @@
 6. Домашнее задание: [Кластеризация и балансировка нагрузки](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-06.md)
 7. Домашнее задание: [Резервное копирование](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-07.md)
 8. Домашнее задание: [Отказоустойчивость в облаке](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-08.md)
+9. Домашнее задание: [Базы данных, их типы](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-09.md)
