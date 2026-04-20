@@ -1,0 +1,33 @@
+services:
+  rabbit1:
+    image: rabbitmq:3.13-management
+    hostname: rabbit1
+    container_name: rabbit1
+    environment:
+      RABBITMQ_DEFAULT_USER: admin
+      RABBITMQ_DEFAULT_PASS: admin
+      RABBITMQ_ERLANG_COOKIE: 7eb6bd21
+      RABBITMQ_NODENAME: rabbit@rabbit1
+    ports:
+      - "15672:15672"
+      - "5672:5672"
+    networks:
+      - rabbitmq_net
+
+  rabbit2:
+    image: rabbitmq:3.13-management
+    hostname: rabbit2
+    container_name: rabbit2
+    depends_on:
+      - rabbit1
+    environment:
+      RABBITMQ_ERLANG_COOKIE: 7eb6bd21
+      RABBITMQ_NODENAME: rabbit@rabbit2
+    volumes:
+      - ./cluster-entrypoint.sh:/usr/local/bin/cluster-entrypoint.sh
+    entrypoint: ["/bin/bash", "/usr/local/bin/cluster-entrypoint.sh"]
+    networks:
+      - rabbitmq_net
+
+networks:
+  rabbitmq_net:

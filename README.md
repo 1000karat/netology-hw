@@ -9,3 +9,4 @@
 8. Домашнее задание: [Отказоустойчивость в облаке](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-08.md)
 9. Домашнее задание: [Базы данных, их типы](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-09.md)
 10. Домашнее задание: [Кеширование Redis/memcached](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-010.md)
+11. Домашнее задание: [Очереди RabbitMQ](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-012.md)
