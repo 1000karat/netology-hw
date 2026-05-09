@@ -11,3 +11,4 @@
 10. Домашнее задание: [Кеширование Redis/memcached](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-010.md)
 11. Домашнее задание: [Очереди RabbitMQ](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-012.md)
 12. Домашнее задание: [Работа с данными (DDL/DML)](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-013.md)
+13. Домашнее задание: [Репликация и масштабирование. Часть 1](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-014.md)
