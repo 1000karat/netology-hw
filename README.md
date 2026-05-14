@@ -12,3 +12,4 @@
 11. Домашнее задание: [Очереди RabbitMQ](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-012.md)
 12. Домашнее задание: [Работа с данными (DDL/DML)](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-013.md)
 13. Домашнее задание: [Репликация и масштабирование. Часть 1](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-014.md)
+14. Домашнее задание: [Репликация и масштабирование. Часть 2(https://github.com/1000karat/netology-hw/blob/main/tasks/hw-015.md)
