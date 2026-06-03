@@ -14,3 +14,4 @@
 13. Домашнее задание: [Репликация и масштабирование. Часть 1](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-014.md)
 14. Домашнее задание: [Репликация и масштабирование. Часть 2](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-015.md)
 15. Домашнее задание: [Резервное копирование баз данных](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-016.md)
+16. Домашнее задание: [Резервное копирование баз данных](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-017.md)
