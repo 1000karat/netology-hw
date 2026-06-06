@@ -1,0 +1,33 @@
+#cloud-config
+users:
+  - name: vm-ya-console
+    groups: sudo
+    shell: /bin/bash
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+    ssh_authorized_keys:
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFmPTu4BZNXVHPmRdEZGwVAzqweyE5ZTP2iixRNM1OiZ admin@G14
+
+package_update: true
+package_upgrade: true
+
+runcmd:
+  - apt-get update
+  - apt-get install -y ca-certificates curl gnupg git
+
+  - install -m 0755 -d /etc/apt/keyrings
+  - curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+  - chmod a+r /etc/apt/keyrings/docker.asc
+
+  - echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian $(. /etc/os-release && echo $VERSION_CODENAME) stable" > /etc/apt/sources.list.d/docker.list
+
+  - apt-get update
+
+  - apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+  - systemctl enable docker
+  - systemctl start docker
+
+  - usermod -aG docker vm-ya-console
+
+  - echo "set mouse-=a" > /home/vm-ya-console/.vimrc
+  - chown vm-ya-console:vm-ya-console /home/vm-ya-console/.vimrc
