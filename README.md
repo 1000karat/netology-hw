@@ -16,4 +16,5 @@
 15. Домашнее задание: [Резервное копирование баз данных](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-016.md)
 16. Домашнее задание: [Оркестрация группой Docker контейнеров на примере Docker Compose](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-017.md)
 17. Домашнее задание: [Практическое применение Docker](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-018.md)
-18. Домашнее задание: [Введение в Terraform](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-019.md)
+18. Домашнее задание: [Введение в Terraform](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-019.md)  
+19. Домашнее задание: [Основы Terraform. Yandex Cloud](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-020.md)
