@@ -10,7 +10,7 @@ resource "yandex_vpc_subnet" "develop" {
 
 resource "yandex_vpc_subnet" "develop_b" {
   name           = "${var.vpc_name}-b"
-  zone           = var.zone_b
+  zone           = local.zones.b
   network_id     = yandex_vpc_network.develop.id
   v4_cidr_blocks = ["10.0.2.0/24"]
 }
@@ -20,7 +20,7 @@ data "yandex_compute_image" "ubuntu" {
 }
 
 resource "yandex_compute_instance" "platform" {
-  name        = var.vm_web_name
+  name        = local.vm_names.web
   platform_id = var.vm_web_platform_id
 
   resources {
@@ -51,9 +51,9 @@ resource "yandex_compute_instance" "platform" {
 }
 
 resource "yandex_compute_instance" "netology-develop-platform-db" {
-  name        = var.vm_db_name
+  name        = local.vm_names.db
   platform_id = var.vm_db_platform_id
-  zone        = var.zone_b
+  zone        = local.zones.b
 
   resources {
     cores         = var.vm_db_cores

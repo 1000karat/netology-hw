@@ -33,10 +33,3 @@ variable "vms_ssh_root_key" {
   default     = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIFmPTu4BZNXVHPmRdEZGwVAzqweyE5ZTP2iixRNM1OiZ admin@G14"
   description = "ssh-keygen -t ed25519"
 }
-
-variable "zone_b" {
-  type        = string
-  default     = "ru-central1-b"
-  description = "Zone for DB instance"
-}
-
