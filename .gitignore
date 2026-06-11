@@ -1,6 +1,8 @@
 ### netology ###
 ter-homeworks/
 /ter-homeworks/
+ter-homeworks-main/
+/ter-homeworks-main/
 hw-tmp.md
 sakila-data.sql
 sakila-schema.sql
@@ -9,6 +11,7 @@ venv/
 *.json
 authorized_key.json
 terraform.tfvars
+*.tfvars
 .terraform.lock.hcl
 .terraform.tfstate.lock.info
 terraform.tfstate
