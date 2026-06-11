@@ -34,43 +34,9 @@ variable "vms_ssh_root_key" {
   description = "ssh-keygen -t ed25519"
 }
 
-#vars vm_web_
-variable "vm_web_family" {
-  type    = string
-  default = "ubuntu-2004-lts"
+variable "zone_b" {
+  type        = string
+  default     = "ru-central1-b"
+  description = "Zone for DB instance"
 }
 
-variable "vm_web_name" {
-  type    = string
-  default = "netology-develop-platform-web"
-}
-
-variable "vm_web_platform_id" {
-  type    = string
-  default = "standard-v3"
-}
-
-variable "vm_web_cores" {
-  type    = number
-  default = 2
-}
-
-variable "vm_web_memory" {
-  type    = number
-  default = 1
-}
-
-variable "vm_web_core_fraction" {
-  type    = number
-  default = 20
-}
-
-variable "vm_web_preemptible" {
-  type    = bool
-  default = true
-}
-
-variable "vm_web_nat" {
-  type    = bool
-  default = true
-}
