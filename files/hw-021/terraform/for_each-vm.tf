@@ -40,7 +40,7 @@ variable "each_vm" {
 
 data "yandex_compute_image" "db_image" {
   for_each = {
-    for index, vm  in var.each_vm :
+    for index, vm in var.each_vm :
     vm.vm_name => vm
   }
 
