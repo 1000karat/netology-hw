@@ -10,7 +10,9 @@ sakila-schema.sql
 venv/
 *.json
 authorized_key.json
+.authorized_key.json
 terraform.tfvars
+personal.auto.tfvars
 *.tfvars
 .terraform.lock.hcl
 .terraform.tfstate.lock.info
