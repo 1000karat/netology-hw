@@ -19,4 +19,4 @@
 18. Домашнее задание: [Введение в Terraform](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-019.md)  
 19. Домашнее задание: [Основы Terraform. Yandex Cloud](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-020.md)
 20. Домашнее задание: [Управляющие конструкции в коде Terraform](https://github.com/1000karat/netology-hw/blob/main/terraform-03/tasks/hw-021.md)
-21. Домашнее задание: [Teamcity](https://github.com/1000karat/netology-hw/blob/main/terraform-03/tasks/hw-022.md)
+21. Домашнее задание: [Teamcity](https://github.com/1000karat/netology-hw/blob/main/tasks/hw-022.md)
